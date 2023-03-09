@@ -24,14 +24,14 @@
 
       <ul class="menu-links">
         <li class="nav-link">
-          <a href="#">
+          <a href="/">
             <i class="fa-solid fa-house icon"></i>
             <span class="text nav-text">Home</span>
           </a>
         </li>
 
         <li class="nav-link">
-          <a href="#skill">
+          <a href="/obat">
             <i class="fa-solid fa-list icon"></i>
             <span class="text nav-text">list obat</span>
           </a>

@@ -183,6 +183,10 @@ header .image-text .profession {
     justify-content: center;
 }
 
+body.dark .sidebar header .image img {
+    background-color: whitesmoke;
+}
+
 .sidebar header .image img {
     width: 40px;
     border-radius: 6px;

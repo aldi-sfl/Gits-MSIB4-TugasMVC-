@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DaftarObatController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,5 +18,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/obat', function () {
+    return view('obat');
+});
+
+Route::get('/obat', [DaftarObatController::class, 'index']);
+
+
+
+
+
+
+
+
+
 
 
