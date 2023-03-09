@@ -5,7 +5,7 @@
 
 <h1 class="text-center text">Daftar Obat</h1>
 
-{{-- <table>
+<table>
     <thead>
         <tr>
             <th>ID</th>
@@ -26,13 +26,13 @@
         </tr>
         @endforeach
     </tbody>
-</table> --}}
+</table>
 
-<ul>
+{{-- <ul>
     @foreach($daftarObats as $daftarObat)
         <li>{{ $daftarObat->nama_obat }} - {{ $daftarObat->deskripsi }}</li>
     @endforeach
-</ul>
+</ul> --}}
 
 
 @endsection
